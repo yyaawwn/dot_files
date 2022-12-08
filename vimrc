@@ -1,16 +1,10 @@
-set nocompatible              " be iMproved, required
 filetype off                  " required
+
+"for YongZhou by YongZhou 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'christoomey/vim-tmux-navigator'
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -25,7 +19,7 @@ filetype plugin indent on    " required
 
 
 let $PAGER=''
-
+set paste
 set history=100
 set ruler
 set rulerformat=%30(%=\:b%n%y%m%r%w\ %l,%c%V\ %P%)
@@ -84,4 +78,4 @@ cmap W w
 cmap WQ wq
 cmap wQ wq
 cmap Q q
-"by yongzhou 
+
